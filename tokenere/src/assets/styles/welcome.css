@@ -1,0 +1,38 @@
+.welcome{
+    background: black;
+    width: 1440px;
+    height: 1024px;
+}
+
+.sk {
+    position: right;
+    color: yellow;
+    font-size: 20px;
+    background-color: black;
+
+}
+
+.tok{
+    color: #F5C249;
+    font-size: 48px;
+    align-content: left;
+}
+
+._Acct{
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+._acct{
+    color: black;
+}
+
+.Acct {
+    background-color: black;
+    border-radius: 1rem;
+}
+
+.acct {
+    color: yellow;
+    font-weight: bold; 
+}
