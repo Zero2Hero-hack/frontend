@@ -1,5 +1,5 @@
 import React from "react";
-import Group from '../assets/images/Group.png';
+import Hero from '../assets/images/hero.png';
 import '../assets/styles/welcome.css';
 
 function index () {
@@ -8,7 +8,7 @@ function index () {
         
             <button className="sk">Skip</button>
             <div className="img">
-                <img scr= {Group} alt="" />
+                <img scr= { Hero } alt="" />
             </div>
             <h1 className="tok"> Welcome to Tokenere</h1>
             <div>

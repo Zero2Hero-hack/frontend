@@ -2,25 +2,39 @@
     background: black;
     width: 1440px;
     height: 1024px;
+    justify-self: center;
+    position: center;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    
 }
 
 .sk {
-    position: right;
-    color: yellow;
+    border: none;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    color: #f9fd0a;
     font-size: 20px;
     background-color: black;
 
 }
 
 .tok{
-    color: #F5C249;
+    color: #f7b928;
     font-size: 48px;
-    align-content: left;
+    text-align: left;
+    text-shadow: 1rem;
+    padding-left: 2rem;
+    text-transform: uppercase;
+    
 }
 
 ._Acct{
-    background-color: yellow;
+    width: 50%;
+    background-color: #F5C249;
     border-radius: 1rem;
+    margin: 2rem 2rem;
 }
 
 ._acct{
@@ -28,11 +42,13 @@
 }
 
 .Acct {
+    width: 50%;
     background-color: black;
     border-radius: 1rem;
+    border-color: #F5C249;
 }
 
 .acct {
-    color: yellow;
+    color: #F5C249;
     font-weight: bold; 
 }
