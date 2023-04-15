@@ -1,6 +1,5 @@
 .welcome{
     background: black;
-    width: 1440px;
     height: 1024px;
     justify-self: center;
     position: center;
@@ -14,7 +13,7 @@
     border: none;
     margin-top: 2rem;
     padding: 0.5rem;
-    color: #f9fd0a;
+    color: #f7b928;
     font-size: 20px;
     background-color: black;
 
@@ -23,9 +22,9 @@
 .tok{
     color: #f7b928;
     font-size: 48px;
-    text-align: left;
+    padding-right: 15%;
+    text-align: center;
     text-shadow: 1rem;
-    padding-left: 2rem;
     text-transform: uppercase;
     
 }
