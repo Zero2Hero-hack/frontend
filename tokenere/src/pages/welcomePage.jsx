@@ -5,22 +5,22 @@ import '../assets/styles/welcome.css';
 function index () {
     return (
         <div className="welcome">
-        
-            <button className="sk">Skip</button>
-            <div className="logo">
+        <nav className="homeNav">
+            <div className="logo">LOGO</div>
+            <div className="sign">
+            <button className="signIn">Sign in</button>
+            <button className="signUp">Sign up</button>
+            </div>
+        </nav>
+            <div className="hero">
                 <img src= { Logo }  alt="hero" />
-            </div>
             <h1 className="tok"> Welcome to Tokenere</h1>
-            <div>
-                <button className="_Acct">
-                    <h2 className="_acct">Open Free Account</h2>
-                </button>
-                </div>
-                <div>
-                <button className="Acct">
-                    <h2 className="acct">I have an Account</h2>
-                </button>
             </div>
+            {/* <div>
+               <form>
+                
+                </form> 
+            </div> */}
         </div>
     );
 };
