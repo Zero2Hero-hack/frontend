@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from '../assets/images/hero.png';
+import Logo from "../assets/images/hero.png";
 import '../assets/styles/welcome.css';
 
 function index () {
@@ -7,8 +7,8 @@ function index () {
         <div className="welcome">
         
             <button className="sk">Skip</button>
-            <div className="img">
-                <img scr= { Hero } alt="" />
+            <div className="logo">
+                <img src= { Logo }  alt="hero" />
             </div>
             <h1 className="tok"> Welcome to Tokenere</h1>
             <div>
