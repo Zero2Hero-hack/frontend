@@ -4,6 +4,7 @@ import '../assets/styles/welcome.css';
 
 function index () {
     return (
+              /* Navigation Bar */
       <div className="welcome">
         <nav className="homeNav">
           <div className="logo">LOGO</div>
@@ -12,14 +13,14 @@ function index () {
             <button className="signUp">Sign up</button>
           </div>
         </nav>
+               {/* Hero Section */}
         <div className="hero">
         <div className="col-1">
-          <img src={Logo} alt="hero" />
+          <img src={Logo} alt="logo" />
           <h1 className="tok"> Welcome to Tokenere</h1>
         </div>
-        <div>
+        <div className="col-2">
           <form>
-            <div className="col-2">
             <div className="email-input">
               <label for="email">Email</label>
               <input
@@ -37,20 +38,19 @@ function index () {
                 type="text"
                 id="text"
                 name="password"
-                placeholder="password"
+                placeholder="Password"
                 //   onChange={formOnChange}
                 //   value={emailAddress}
               ></input>
               </div>
 
-            <div className="sign-btn">
-              <button> Sign In</button>
+              <div className="sign-btn">
+                <button> Sign In</button>
+              </div>
+            </form> 
             </div>
-            </div>
-          </form> 
         </div>
-
-        </div>
+        {/* END OF HERO SECTION */}
       </div>
     );
 };
