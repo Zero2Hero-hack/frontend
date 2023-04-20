@@ -1,5 +1,5 @@
 .welcome{
-    background: rgb(230, 213, 213);
+    background: black;
     height: 1024px;
     justify-self: center;
     position: center;
@@ -51,7 +51,7 @@
     border-radius: 37px;
 }
 
-.hero{
+.col-1{
     position: absolute;
     margin-top: 141px;
     margin-left: 36px;
@@ -59,22 +59,23 @@
     height: 604px;
 }
 
-
 .tok{
     color:antiquewhite;
     font-size: 48px;
     padding-right: 15%;
     text-align: center;
     text-shadow: 1rem;
-    text-transform: uppercase;
-    
+    text-transform: uppercase; 
 }
 
-._Acct{
+.col-2{
+    position: relative;
+}
+
+.email-input{
     width: 50%;
-    background-color: #F5C249;
     border-radius: 1rem;
-    margin: 2rem 2rem;
+    
 }
 
 ._acct{

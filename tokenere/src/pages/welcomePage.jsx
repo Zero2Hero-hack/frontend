@@ -13,6 +13,7 @@ function index () {
           </div>
         </nav>
         <div className="hero">
+        <div className="col-1">
           <img src={Logo} alt="hero" />
           <h1 className="tok"> Welcome to Tokenere</h1>
         </div>
@@ -30,6 +31,7 @@ function index () {
                 //   value={emailAddress}
               ></input>
             </div>
+            <div className="pass-input">
               <label for="email">Password</label>
               <input
                 type="text"
@@ -39,12 +41,14 @@ function index () {
                 //   onChange={formOnChange}
                 //   value={emailAddress}
               ></input>
-            <div className="edit-btn">
+              </div>
+
+            <div className="sign-btn">
               <button> Sign In</button>
             </div>
             </div>
-          </form>
-          
+          </form> 
+        </div>
 
         </div>
       </div>
