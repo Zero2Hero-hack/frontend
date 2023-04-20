@@ -42,11 +42,11 @@ function index () {
                 //   onChange={formOnChange}
                 //   value={emailAddress}
               ></input>
-              </div>
-
-              <div className="sign-btn">
+                <span className="fgt-pswd"> Forgot Password?</span>
+              
                 <button> Sign In</button>
               </div>
+
             </form> 
             </div>
         </div>
