@@ -39,8 +39,8 @@ function index () {
                 id="text"
                 name="password"
                 placeholder="Password"
-                min={6}
-                max={20}
+                min="6"
+                max="20"
                 //   onChange={formOnChange}
                 //   value={emailAddress}
               ></input>
