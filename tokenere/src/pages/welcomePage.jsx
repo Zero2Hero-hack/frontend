@@ -24,7 +24,7 @@ function index () {
             <div className="email-input">
               <label for="email">Email</label>
               <input
-                type="text"
+                type="email"
                 id="text"
                 name="emailAddress"
                 placeholder="Enter your email"
@@ -33,9 +33,9 @@ function index () {
               ></input>
             </div>
             <div className="pass-input">
-              <label for="email">Password</label>
+              <label for="password">Password</label>
               <input
-                type="text"
+                type="password"
                 id="text"
                 name="password"
                 placeholder="Password"
@@ -43,7 +43,7 @@ function index () {
                 //   value={emailAddress}
               ></input>
                 <span className="fgt-pswd"> Forgot Password?</span>
-                <button> Sign In</button>
+                <button><span>Sign In</span> </button>
                 <p className="acct"> Don't have an account? <span className="_acct"> Create One </span> </p>
               </div>
             </form> 

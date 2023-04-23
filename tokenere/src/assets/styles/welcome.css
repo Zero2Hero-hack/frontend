@@ -102,6 +102,7 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 38px;
+    padding-left: 2rem;
 }
 
 .email-input input,
@@ -129,6 +130,7 @@
     line-height: 28px;
     text-align: center;
     letter-spacing: -0.035em;
+    padding-left: 1.5rem;
 }
 
 .pass-input button{
@@ -150,6 +152,10 @@
     letter-spacing: -0.035em;
     color: #21242D;
     margin-bottom: 0px;
+}
+
+.pass-input button span{
+    align-self: center;
 }
 
 .acct{
