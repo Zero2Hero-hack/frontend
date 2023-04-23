@@ -43,12 +43,11 @@ function index () {
                 //   value={emailAddress}
               ></input>
                 <span className="fgt-pswd"> Forgot Password?</span>
-              
                 <button> Sign In</button>
+                <p className="acct"> Don't have an account? <span className="_acct"> Create One </span> </p>
               </div>
-
             </form> 
-            </div>
+            </div>  
         </div>
         {/* END OF HERO SECTION */}
       </div>
