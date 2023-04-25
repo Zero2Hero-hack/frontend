@@ -29,11 +29,11 @@
     margin-top: 17px;
     Width:103px;
     Height:39px;
-    border: none;
+    border-color:#F5C249;
     padding: 0.5rem;
-    color: #0e0d0c;
+    color:#F5C249;
     font-size: 20px;
-    background-color: #f7b928;
+    background-color:#0e0d0c;
     border-radius: 37px;
 }
 
@@ -49,11 +49,24 @@
     font-size: 20px;
     background-color:#0e0d0c;
     border-radius: 37px;
+    
+}
+
+.signIn:hover{
+    color:#0e0d0c;
+    background-color: #F5C249;
+    cursor: pointer;
+}
+
+.signUp:hover{
+    color:#0e0d0c;
+    background-color: #F5C249;
+    cursor: pointer;
 }
 
 .hero{
     display: grid;
-    grid-template-columns: 2fr 0fr 2fr;
+    grid-template-columns: auto auto;
 }
 
 .col-1{
