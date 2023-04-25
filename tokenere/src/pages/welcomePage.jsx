@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/images/hero.png";
+//import Vector from "../assets/images/Vector.png"
 import '../assets/styles/welcome.css';
 
 function index () {
