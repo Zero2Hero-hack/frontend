@@ -41,7 +41,8 @@
 }
 
 .footer hr{
-    width: 100%;
+    margin-left: 55px;
+    margin-right: 55px;
     height: 5px;
     border: 1px;
     background: #C6EB2A;
