@@ -10,6 +10,7 @@ function Footer() {
                     <div className="firstCol_2">
                 <p>What's New</p><br/>
                 <span> Subscribe to our newsletter to get updates on our latest offers!</span><br />
+                <div>
                 <label for="email"></label><input 
                 type="email"
                 id="email"
@@ -19,7 +20,8 @@ function Footer() {
                 <button>Suscribe</button>
                 <p> We'll never share your email with a third party </p>
                 </div>
-                <div className="first_img">
+                </div>
+                <div className="footerFirst_img">
                     <img src="" alt="Not found" />
                 </div>
                 </div>
@@ -27,49 +29,57 @@ function Footer() {
                 <div className="second_2">
                     <div className="secondCol_1">
                         <div> 
-                        <h2>Company</h2>
-                        <h3>About Us</h3>
-                        <h3>Team</h3>
-                        <h3>Privacy Policy</h3>
-                        <h3>Terms & Conditions</h3>
-                        <h3>Paternership</h3>
+                        <span>Company</span>
+                        <h4>About Us</h4>
+                        <h4>Team</h4>
+                        <h4>Privacy Policy</h4>
+                        <h4>Terms & Conditions</h4>
+                        <h4>Paternership</h4>
                         </div>
                     </div>
                     <div className="secondCol_2">
                         <div>
-                        <h2>Need Help</h2>
-                        <h3>Help Center</h3>
-                        <h3>Contact Us</h3>
-                        <h3>How to Trade</h3>
-                        <h3>Submit a dispute</h3>
-                        <h3>Report a Product</h3>
-                        <h3>Return a Product</h3>
-                        <h3>FAQs</h3>
+                        <span>Need Help</span>
+                        <h4>Help Center</h4>
+                        <h4>Contact Us</h4>
+                        <h4>How to Trade</h4>
+                        <h4>Submit a dispute</h4>
+                        <h4>Report a Product</h4>
+                        <h4>Return a Product</h4>
+                        <h4>FAQs</h4>
                         </div>
                     </div>
                     <div className="secondCol_3">
                         <div>
-                        <h2> Business Services</h2>
-                        <h3> Trade Assurance</h3>
-                        <h3> Product Testing</h3>
-                        <h3> On-Site Verification</h3>
-                        <h3> Certification</h3>
-                        <h3> Logistics Services</h3>
+                        <span> Business Services</span>
+                        <h4> Trade Assurance</h4>
+                        <h4> Product Testing</h4>
+                        <h4> On-Site Verification</h4>
+                        <h4> Certification</h4>
+                        <h4> Logistics Services</h4>
                         </div>
                     </div>
                     <div className="secondCol_4">
-                        <h2> Buy on Business</h2>
-                        <h3> Register as a buyer</h3>
-                        <h3> All Categories</h3>
-                        <h3> How to buy</h3>
+                        <span> Buy on Business</span>
+                        <h4> Register as a buyer</h4>
+                        <h4> All Categories</h4>
+                        <h4> How to buy</h4>
                     </div>
                     <div className="secondCol_5">
-                        <h2> Sell on Business</h2>
-                        <h3> Register as a seller</h3>
-                        <h3> How to sell</h3>
+                        <span> Sell on Business</span>
+                        <h4> Register as a seller</h4>
+                        <h4> How to sell</h4>
                     </div>
                 </div>
                 <hr />
+                <div>
+                    <span> Join Us </span>
+
+                    <span> Payment Methods</span>
+
+                    <span> Delivery Partners</span>
+
+                </div>
             </div>
         </footer>
     );
