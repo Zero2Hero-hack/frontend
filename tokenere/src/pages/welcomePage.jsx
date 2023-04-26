@@ -10,7 +10,7 @@ function index () {
         <nav className="homeNav">
           <div className="logo">LOGO</div>
           <div className="sign">
-            <button className="signIn">Sign in</button>
+            <button className="signIn" >Sign in</button>
             <button className="signUp">Sign up</button>
           </div>
         </nav>
