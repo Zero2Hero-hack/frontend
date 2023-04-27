@@ -1,4 +1,8 @@
 import React from "react";
+import FaceIcon from "../assets/images/facebook.png";
+import InstaIcon from "../assets/images/instagram.png";
+import TwitterIcon from "../assets/images/twitter.png";
+import LinkedInIcon from "../assets/images/linkedin.png";
 import '../assets/styles/footer.css';
 
 function Footer() {
@@ -6,8 +10,8 @@ function Footer() {
         // --------------------------- FIRST SECTION ----------------------------------------//
         <footer>
             <div className="footer">
-                <div className="first_1">
-                    <div className="firstCol_2">
+                <div className="first_section">
+                    <div className="firstCol">
                 <p>What's New</p><br/>
                 <span> Subscribe to our newsletter to get updates on our latest offers!</span><br />
                 <div>
@@ -26,7 +30,7 @@ function Footer() {
                 </div>
                 </div>
         {/* --------------------------   SECOND SECTION -------------------------------------- */}
-                <div className="second_2">
+                <div className="second_section">
                     <div className="secondCol_1">
                         <div> 
                         <span>Company</span>
@@ -72,13 +76,21 @@ function Footer() {
                     </div>
                 </div>
                 <hr />
-                <div>
-                    <span> Join Us </span>
-
+      {/* --------------------------   THIRD SECTION -------------------------------------- */}
+                <div className="third_section">
+                    <div className="join">
+                        <span> Join Us </span>
+                        <img src={FaceIcon} alt="logo" />
+                        <img src={InstaIcon} alt="logo" />
+                        <img src={TwitterIcon} alt="logo" />
+                        <img src={LinkedInIcon} alt="logo" />
+                    </div>
+                    <div className="pay">
                     <span> Payment Methods</span>
-
+                    </div>
+                    <div className="deliver">
                     <span> Delivery Partners</span>
-
+                    </div>
                 </div>
             </div>
         </footer>
