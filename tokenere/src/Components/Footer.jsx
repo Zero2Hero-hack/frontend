@@ -3,6 +3,8 @@ import FaceIcon from "../assets/images/facebook.png";
 import InstaIcon from "../assets/images/instagram.png";
 import TwitterIcon from "../assets/images/twitter.png";
 import LinkedInIcon from "../assets/images/linkedin.png";
+import Iphone from "../assets/images/iphone.png";
+import Android from "../assets/images/android.png";
 import '../assets/styles/footer.css';
 
 function Footer() {
@@ -14,7 +16,7 @@ function Footer() {
                     <div className="firstCol">
                 <p>What's New</p><br/>
                 <span> Subscribe to our newsletter to get updates on our latest offers!</span><br />
-                <div>
+                <div className="newsletter">
                 <label for="email"></label><input 
                 type="email"
                 id="email"
@@ -22,11 +24,12 @@ function Footer() {
                 placeholder="Enter Email for Newsletter"
                 ></input>
                 <button>Suscribe</button>
-                <p> We'll never share your email with a third party </p>
+                <h5> We'll never share your email with a third party </h5>
                 </div>
                 </div>
                 <div className="footerFirst_img">
-                    <img src="" alt="Not found" />
+                    <img src={Iphone} alt="Not found" />
+                    <img src={Android} alt="Not found" />
                 </div>
                 </div>
         {/* --------------------------   SECOND SECTION -------------------------------------- */}
@@ -80,10 +83,12 @@ function Footer() {
                 <div className="third_section">
                     <div className="join">
                         <span> Join Us </span>
-                        <img src={FaceIcon} alt="logo" />
-                        <img src={InstaIcon} alt="logo" />
-                        <img src={TwitterIcon} alt="logo" />
-                        <img src={LinkedInIcon} alt="logo" />
+                        <div className="social_image">
+                           <div> <img src={FaceIcon} alt="logo" /> </div>
+                            <div> <img src={InstaIcon} alt="logo" /> </div>
+                            <div> <img src={TwitterIcon} alt="logo" /> </div>
+                            <div> <img src={LinkedInIcon} alt="logo" /> </div>
+                        </div>
                     </div>
                     <div className="pay">
                     <span> Payment Methods</span>
