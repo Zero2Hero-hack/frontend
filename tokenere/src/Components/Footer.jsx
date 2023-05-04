@@ -2,9 +2,12 @@ import React from "react";
 import FaceIcon from "../assets/images/facebook.png";
 import InstaIcon from "../assets/images/instagram.png";
 import TwitterIcon from "../assets/images/twitter.png";
+import YoutubeIcon from "../assets/images/youtube.png";
 import LinkedInIcon from "../assets/images/linkedin.png";
 import Iphone from "../assets/images/iphone.png";
 import Android from "../assets/images/android.png";
+import Visa from "../assets/images/visa.png";
+import Kobo from "../assets/images/kobo.png";
 import '../assets/styles/footer.css';
 
 function Footer() {
@@ -14,7 +17,7 @@ function Footer() {
             <div className="footer">
                 <div className="first_section">
                     <div className="firstCol">
-                <p>What's New</p><br/>
+                <p>What's New</p>
                 <span> Subscribe to our newsletter to get updates on our latest offers!</span><br />
                 <div className="newsletter">
                 <label for="email"></label><input 
@@ -87,14 +90,17 @@ function Footer() {
                            <div> <img src={FaceIcon} alt="logo" /> </div>
                             <div> <img src={InstaIcon} alt="logo" /> </div>
                             <div> <img src={TwitterIcon} alt="logo" /> </div>
+                            <div> <img src={YoutubeIcon} alt="logo" /> </div>
                             <div> <img src={LinkedInIcon} alt="logo" /> </div>
                         </div>
                     </div>
                     <div className="pay">
                     <span> Payment Methods</span>
+                    <div> <img src={Visa} alt="logo" /> </div>
                     </div>
                     <div className="deliver">
                     <span> Delivery Partners</span>
+                    <div> <img src={Kobo} alt="logo" /> </div>
                     </div>
                 </div>
             </div>
