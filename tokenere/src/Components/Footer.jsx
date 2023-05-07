@@ -26,8 +26,8 @@ function Footer() {
                 name="emailAddress"
                 placeholder="Enter Email for Newsletter"
                 ></input>
-                <button>Suscribe</button>
-                <h5> We'll never share your email with a third party </h5>
+                <button>Suscribe</button><br />
+                <span> We'll never share your email with a third party </span>
                 </div>
                 </div>
                 <div className="footerFirst_img">
@@ -60,7 +60,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className="secondCol_3">
-                        <div>
+                        <div className="business">
                         <span> Business Services</span>
                         <h4> Trade Assurance</h4>
                         <h4> Product Testing</h4>
